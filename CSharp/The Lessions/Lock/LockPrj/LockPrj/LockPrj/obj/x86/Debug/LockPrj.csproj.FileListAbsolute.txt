@@ -1,0 +1,4 @@
+F:\Work\Project\Git\CSharp\The Lessions\Lock\LockPrj\LockPrj\LockPrj\bin\Debug\LockPrj.exe
+F:\Work\Project\Git\CSharp\The Lessions\Lock\LockPrj\LockPrj\LockPrj\bin\Debug\LockPrj.pdb
+F:\Work\Project\Git\CSharp\The Lessions\Lock\LockPrj\LockPrj\LockPrj\obj\x86\Debug\LockPrj.exe
+F:\Work\Project\Git\CSharp\The Lessions\Lock\LockPrj\LockPrj\LockPrj\obj\x86\Debug\LockPrj.pdb

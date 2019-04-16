@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{C67F1B0B-5E9D-43AF-B82D-40B1B73DF753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverEnemy", "ObserverEnemy\ObserverEnemy.csproj", "{C71FDE03-E341-4FBF-A5B2-0BAC90681FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverEvent", "ObserverEvent\ObserverEvent.csproj", "{D530202A-A19C-471E-9F36-4E548FDC4CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C67F1B0B-5E9D-43AF-B82D-40B1B73DF753}.Debug|x86.ActiveCfg = Debug|x86
+		{C67F1B0B-5E9D-43AF-B82D-40B1B73DF753}.Debug|x86.Build.0 = Debug|x86
+		{C67F1B0B-5E9D-43AF-B82D-40B1B73DF753}.Release|x86.ActiveCfg = Release|x86
+		{C67F1B0B-5E9D-43AF-B82D-40B1B73DF753}.Release|x86.Build.0 = Release|x86
+		{C71FDE03-E341-4FBF-A5B2-0BAC90681FD8}.Debug|x86.ActiveCfg = Debug|x86
+		{C71FDE03-E341-4FBF-A5B2-0BAC90681FD8}.Debug|x86.Build.0 = Debug|x86
+		{C71FDE03-E341-4FBF-A5B2-0BAC90681FD8}.Release|x86.ActiveCfg = Release|x86
+		{C71FDE03-E341-4FBF-A5B2-0BAC90681FD8}.Release|x86.Build.0 = Release|x86
+		{D530202A-A19C-471E-9F36-4E548FDC4CAE}.Debug|x86.ActiveCfg = Debug|x86
+		{D530202A-A19C-471E-9F36-4E548FDC4CAE}.Debug|x86.Build.0 = Debug|x86
+		{D530202A-A19C-471E-9F36-4E548FDC4CAE}.Release|x86.ActiveCfg = Release|x86
+		{D530202A-A19C-471E-9F36-4E548FDC4CAE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

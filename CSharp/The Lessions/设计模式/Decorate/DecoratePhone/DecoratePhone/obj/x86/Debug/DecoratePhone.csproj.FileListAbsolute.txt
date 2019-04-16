@@ -1,0 +1,7 @@
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\obj\x86\Debug\DecoratePhone.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\obj\x86\Debug\DecoratePhone.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\obj\x86\Debug\DecoratePhone.csproj.GenerateResource.Cache
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\bin\Debug\DecoratePhone.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\bin\Debug\DecoratePhone.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\obj\x86\Debug\DecoratePhone.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\DecoratePhone\DecoratePhone\obj\x86\Debug\DecoratePhone.pdb

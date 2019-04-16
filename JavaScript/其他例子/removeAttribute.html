@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="Fly">
+		<title>Document</title>
+		<style>
+		#box1,#box2
+		{
+			width:200px;
+			height:100px;
+			background:blue;
+			margin:50px Auto;
+			color:#0fff;
+			line-height:30px;
+			text-align:center;
+			font-weight:bold;
+		}
+		#box2
+		{
+			color:#F60;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="box" zongliang="我的名字">ABCDEF</div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<script>
+			var cbox=document.getElementsByClassName("box");
+			
+			cbox[0].onclick=function(){
+				cbox[0].removeAttribute("zongliang");
+				alert(cbox[0].getAttribute("zongliang"));
+			}
+		</script>
+	</body>
+</html>

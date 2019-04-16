@@ -1,0 +1,16 @@
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\bin\Debug\Strategy.exe
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\bin\Debug\Strategy.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\obj\x86\Debug\Strategy.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\obj\x86\Debug\Strategy.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\obj\x86\Debug\Strategy.csproj.GenerateResource.Cache
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\obj\x86\Debug\Strategy.exe
+G:\Work\Project\CSharp\Code\The Lessons\Snow\Strategy\Strategy\obj\x86\Debug\Strategy.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Strategy\Strategy\obj\x86\Debug\Strategy.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Strategy\Strategy\obj\x86\Debug\Strategy.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\obj\x86\Debug\Strategy.exe
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\obj\x86\Debug\Strategy.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\bin\Debug\Strategy.exe
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\bin\Debug\Strategy.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\obj\x86\Debug\Strategy.Form1.resources
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\obj\x86\Debug\Strategy.Properties.Resources.resources
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Strategy\Strategy\obj\x86\Debug\Strategy.csproj.GenerateResource.Cache

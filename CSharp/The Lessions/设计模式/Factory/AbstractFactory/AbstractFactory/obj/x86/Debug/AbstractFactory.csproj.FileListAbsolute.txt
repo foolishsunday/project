@@ -1,0 +1,7 @@
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\obj\x86\Debug\AbstractFactory.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\obj\x86\Debug\AbstractFactory.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\obj\x86\Debug\AbstractFactory.csproj.GenerateResource.Cache
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\bin\Debug\AbstractFactory.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\bin\Debug\AbstractFactory.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\obj\x86\Debug\AbstractFactory.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactory\obj\x86\Debug\AbstractFactory.pdb

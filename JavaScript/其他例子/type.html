@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="Fly">
+		<title>Document</title>
+		<style id="css">
+		#box1
+		{
+			width:300px;
+			height:200px;
+			background:blue;
+			margin:50px Auto;
+			color:#0fff;
+			line-height:30px;
+			text-align:center;
+			font-weight:bold;
+		}
+		#box2.lei
+		{
+			color:#F60;
+			width:300px;
+			height:200px;
+			background:blue;
+			margin:50px Auto;
+			line-height:30px;
+			text-align:center;
+			font-weight:bold;
+		}
+		#box2.xin
+		{
+			color:#F60;
+			width:200px;
+			height:100px;
+			background:pink;
+			margin:50px Auto;
+
+		}
+		</style>
+	</head>
+	<body>
+		<div id="box1" style="">ABCDEF</div>
+		<div id="box2" style="">ABCDEF</div>
+		<script>
+			var cbox1=document.getElementById("box1");
+			var cbox2=document.getElementById("box2");
+			
+			cbox2.className="lei";
+				var a=5;
+				var b="5";
+				var c=true;
+				var f=function(){};
+				var d=document;
+				var arr=[1,2,3];
+				var json={
+					"name" : "zongliang",
+					"age" : 18,
+					"marry" : false
+				};
+				var nul=null;
+				var nodefine;
+				
+				cbox1.innerHTML="a="+typeof(a)+" b="+typeof(b)+" c="+typeof(c)+" d="+typeof(d)+" f="+typeof(f);
+				cbox1.innerHTML+=" box="+typeof(cbox1);
+				cbox1.innerHTML+=" arr="+typeof(arr);
+				cbox1.innerHTML+=" json="+typeof(json);
+				cbox1.innerHTML+=" nul="+typeof(nul);
+				cbox1.innerHTML+=" nodefine="+typeof(nodefine);
+				cbox2.innerHTML=json;
+
+		</script>
+	</body>
+</html>

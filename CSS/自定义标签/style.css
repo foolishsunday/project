@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+p{
+	font-size:32px;
+	font-weight: lighter;
+	text-shadow: 0px 0px 0 rgb(177,178,188),
+				 1px 0px 0 rgb(173,163,173),
+				 2px 0px 0 rgb(157,147,157);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 360px;
+}
+
+z{
+	font-size: 50px;
+	-webkit-text-stroke:1px purple;
+}

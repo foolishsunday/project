@@ -1,0 +1,15 @@
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\bin\Debug\Observer.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\bin\Debug\Observer.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\obj\x86\Debug\Observer.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\obj\x86\Debug\Observer.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\obj\x86\Debug\Observer.csproj.GenerateResource.Cache
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\obj\x86\Debug\Observer.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\Observer\obj\x86\Debug\Observer.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\obj\x86\Debug\Observer.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\obj\x86\Debug\Observer.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\bin\Debug\Observer.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\bin\Debug\Observer.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\obj\x86\Debug\Observer.csprojResolveAssemblyReference.cache
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\obj\x86\Debug\Observer.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\obj\x86\Debug\Observer.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\Observer\obj\x86\Debug\Observer.csproj.GenerateResource.Cache

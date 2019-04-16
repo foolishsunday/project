@@ -1,0 +1,7 @@
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\bin\Debug\AbstractFactoryAttack.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\bin\Debug\AbstractFactoryAttack.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\obj\x86\Debug\AbstractFactoryAttack.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\obj\x86\Debug\AbstractFactoryAttack.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\obj\x86\Debug\AbstractFactoryAttack.csproj.GenerateResource.Cache
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\obj\x86\Debug\AbstractFactoryAttack.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Factory\AbstractFactory\AbstractFactoryAttack\obj\x86\Debug\AbstractFactoryAttack.pdb

@@ -1,0 +1,117 @@
+@charset "utf-8";
+body{
+	background-color: #666699;
+}
+body,h1,ul{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#header {
+	width: 100%;
+	height: 160px;
+	background-color:#663366;
+	/*background-color: #FF6666;*/
+	position: relative;
+}
+#header p{
+	width: 20%;
+
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align:middle
+
+}
+#header .count_right,#header .count_wrong {
+	width: 30%;
+	height: 54px;
+	background-color: #FFFF66;
+	text-align: center;
+	line-height: 55px;
+	border-radius: 6px;
+	float: left;
+
+}
+
+#header .count_right{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+#header .count_wrong {
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+}
+
+#cal .cal_body{
+	width: 800px;
+	height: 100px;
+	position: absolute;
+	margin: -40px 0 0 -400px;
+	top: 50%;
+	left: 50%;
+	border: 2px solid yellow;
+	border-radius: 6px;
+	
+}
+#cal .cal_diffcult{
+	width: 800px;
+	height: 100px;
+	position: absolute;
+	margin: -40px 0 0 -400px;
+	top: 75%;
+	left: 50%;
+	border: 2px solid yellow;
+	border-radius: 6px;
+	
+}
+#cal p{
+	width: 120px;
+	height: 60px;
+	font-size: 35px;
+	line-height: 1.5;
+	float: left;
+	margin: 20px auto;
+	text-align:center;
+	display: table-cell;
+	vertical-align:middle
+
+}
+#cal .number1,#cal .number2{
+	border: 2px solid gray;
+	background-color: #99CC66;
+	border-radius: 2px;
+	padding: 0;
+}
+#cal .operator1,#cal .operator2{
+	border: 2px solid gray;
+	background-color: #FF6600;
+	border-radius: 2px;
+	padding: 0;
+}
+#cal input
+{
+	width: 200px;
+	height: 60px;
+	font-size: 30px;
+	background-color: white;
+	border: 2px solid gray;
+	line-height: 1.5;
+	float: left;
+	margin: 18px auto;
+	padding: 0;
+	border-radius: 2px;
+}
+#cal .btn{
+	width: 70px;
+	height: 60px;
+	float: left;
+	margin: 18px 0 0 10px;
+
+}
+
+
+

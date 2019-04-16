@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>JQuery 遍历</title>
+	<script type="text/javascript" src="JQuery.js"></script>
+	<script type="text/javascript" src="myjs.js"></script>
+	<style>
+		.abc{
+			width: 200px;
+			height: 80px;
+			font-size: 18px;
+		}
+		.panel{
+			font-size: 16px;
+			border: 2px solid red;
+			background-color: orange;
+		}
+		.pstyle{
+			background-color: gray;
+		}
+		.parent{
+			background-color: green;
+		}
+		.blue{
+			background-color: blue;
+		}
+		.psyle{
+			font-weight: bold;
+			background-color: red;
+		}
+		.spanstyle, .spanstyle2{
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<button id="btnFather" class="abc">父元素</button>
+	<button id="btnChildren" class="abc">子元素</button>
+	<button id="btnFind" class="abc">find</button>
+	<button id="btnAll" class="abc">find*</button>
+
+	<div id="panelId" class="panel">
+		<p class="psyle">test</p>
+		<ul>
+			<li>
+				<span id="span1" class="spanstyle2">1</span>
+				<span class="spanstyle">2</span>
+				<span>3</span>
+			</li>
+			<li>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+			</li>
+		</ul>
+
+
+
+	</div>
+
+
+</body>
+</html>

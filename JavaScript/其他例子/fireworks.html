@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>祝你妇女节快乐</title>
+  <style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			background:#000;
+			overflow:hidden;
+		}
+		.firework{
+			position:absolute;
+			width:7px;
+			height:40px;
+			background:red;
+			border-radius:50%;
+		}
+		.fires{
+			position:absolute;
+			height:8px;
+			width:8px;
+			background:red;
+			border-radius:50%;
+		}
+  </style>
+ </head>
+ <body>
+	<script type="text/javascript">
+		document.onclick = function(e){
+			//console.log(this)
+			//console.log(arguments)	//实参的集合
+			var e = e || window.event;
+			var x = e.clientX,
+				y = e.clientY,
+				h = window.innerHeight;
+			
+			firework(x,y,h);
+		}
+		function firework(x,y,h){
+				var oDiv = document.createElement("div");
+				oDiv.className = "firework";
+				oDiv.style.left = x+"px";
+				oDiv.style.top = h+"px";
+				document.body.appendChild(oDiv);
+				var speed = 10;
+				timer = setInterval(function(){
+					oDiv.style.top = oDiv.offsetTop - speed + "px";
+					//oDiv.style.background = getColor();
+					if(oDiv.offsetTop <= y)
+					{
+						clearInterval(timer);
+						document.body.removeChild(oDiv);
+						createFires(x,y,h);
+						//console.log("test");
+					}
+				},30);
+				
+		}
+		
+
+		function createFires(x,y,h){
+			var n = Math.ceil(Math.random()*50) + 50;
+			var fires = [];
+			for(var i=0;i<n;i++)
+			{
+
+				fires[i] = document.createElement("div");
+				fires[i].className = "fires";
+				fires[i].style.left = x + "px";
+				fires[i].style.top = y + "px";
+				fires[i].speedX = Math.random()*20 - 10; //-10~10
+				fires[i].speedY = Math.random()*20 - 10;
+				
+				
+				document.body.appendChild(fires[i]);
+
+			}
+			
+			 
+			timer = setInterval(function(){
+			
+				for(var j=0;j<n;j++)
+				{
+				/*
+					if(j==0)
+						maxY=fires[j].style.top;
+					else if(maxY<fires[j].style.top)
+						maxY=fires[j].style.top;
+					else{}
+					*/
+					fires[j].style.left = fires[j].offsetLeft + fires[j].speedX + "px";
+					fires[j].style.top = fires[j].offsetTop + fires[j].speedY + "px";
+					fires[j].speedY += 1;
+					fires[j].style.background = getColor();
+					
+				
+						
+				}
+			},30);
+			
+			function getColor()
+			{
+				var r=Math.floor(Math.random()*256);
+				var g=Math.floor(Math.random()*256);
+				var b=Math.floor(Math.random()*256);
+				return "rgb("+r+','+g+','+b+")";
+			}
+				
+		}
+		
+	</script>
+ </body>
+</html>

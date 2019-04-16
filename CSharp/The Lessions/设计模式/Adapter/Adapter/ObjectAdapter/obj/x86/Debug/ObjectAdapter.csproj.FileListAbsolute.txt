@@ -1,0 +1,14 @@
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\bin\Debug\ObjectAdapter.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\bin\Debug\ObjectAdapter.pdb
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.Form1.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.Properties.Resources.resources
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.csproj.GenerateResource.Cache
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.exe
+G:\Work\Project\CSharp\Code\The Lessons\Pattern\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\bin\Debug\ObjectAdapter.exe
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\bin\Debug\ObjectAdapter.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.Form1.resources
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.Properties.Resources.resources
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.csproj.GenerateResource.Cache
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.exe
+F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Adapter\Adapter\ObjectAdapter\obj\x86\Debug\ObjectAdapter.pdb

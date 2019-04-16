@@ -1,0 +1,2 @@
+
+open('sonWindow.html','baidu');

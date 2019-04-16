@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>字体变大变小</title>
+</head>
+<body>
+	<div style="margin: 100px 0 0 -100px;;padding:0;left:50%;top:10%;position: absolute;background-color: orange;border-radius: 20px">
+		<p id="box" style="color:blue; ">字体变大变小</p>
+	</div>
+
+	<script>
+		var width=document.body.clientWidth;
+		var height=document.body.clientheight;
+		var bornX=Math.floor(Math.random()*width+1);
+		var bornY=Math.floor(Math.random()*height+1);
+		var reachSign;
+
+		var box=document.getElementById("box");
+
+		var num=0,max=15;
+		var direction=true;
+		var size;
+		function fun(){
+
+			if(num>=max){
+				direction=!direction;
+				num=0;
+			}
+
+			if(direction==true){
+				size = 16+num;
+			}else{
+				size = 16 + max - num;
+			}
+			num+=1;
+			if(size>=0)
+				box.style.fontSize = size + 'px';
+			setTimeout(fun,100);
+		}
+		setTimeout(fun,100);
+	</script>
+</body>
+</html>

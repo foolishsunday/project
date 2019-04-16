@@ -1,0 +1,177 @@
+@charset "utf-8";
+a{
+	text-decoration: none;
+}
+.none{
+	display: none;
+}
+body,h1,ul,h2,p,figure{		/*figure可使图片紧挨着*/
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: outside none none;
+}
+#header {
+	width: 100%;
+	height: 72px;
+	min-width: 1263px;
+	background: #000;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 9999;
+
+}
+#header .center {
+	width: 1263px;
+	height: 70px;
+	margin:0 auto;
+}
+
+#header .logo {
+	width: 240PX;
+	height: 72px;
+	background-image: url(../img/logo-it.jpg);
+	text-indent: -9999px;
+	float: left;
+}
+#header .link {
+	width: 650px;
+	height: 70px;
+	line-height: 70px;
+	float: right;
+}
+
+#header .link li {
+	width: 120px;
+	text-align: center;
+	float: left;
+}
+#header .link a {
+	color: #eee;
+	display: block;
+}
+#header .link a:hover {
+	background-color: orange;
+}
+
+#search {
+	width: 100%;
+	min-width: 1263px;
+	height: 600px;
+	background: url(../img/texture.jpg) no-repeat center;
+	position: relative;
+}
+#search .center {
+	width: 600px;
+	height: 60px;
+	background: rgb(200,200,200);
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin: -30px 0 0 -300px;
+	opacity: 0.6;
+}
+#search .search {
+	width: 446px;
+	height: 54px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -296px;
+	color:#666;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 24px;
+	padding: 0 10px;
+	outline: none;
+}
+#search .button {
+	width: 120px;
+	height: 54px;
+	background-color: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 175px;
+	color:#666;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 24px;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+#tour{
+	width: 1263px;
+	height: 1200px;
+
+	margin: 30px auto;	/*整块去边距且居中*/
+	text-align: center;	/*可使9张图片并排时居中*/
+}
+
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;	/*字母间距*/
+	color: #666;
+	margin: 10px 0;	/*整块区域上下空出10px*/
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;	/*整块区域上下空出10px*/
+}
+#tour figure{
+	border: 1px solid red;
+	display: inline-block;	/*内联块，使红框刚好能框住图片*/
+	padding:4px;			/*图片与边框间距为4px*/
+	border-radius: 4px;		/*边框圆角*/
+	margin: 15px 12px;		/*可使各张图片距离拉开*/
+	width: 200px;
+	text-align: left;	/*figure内的元素居左*/ 
+	position: relative;	/*给company作参考*/
+}
+#tour figure img{
+	vertical-align: middle; /*图片的垂直对齐方式：可使图片下方红框贴住图片*/
+}
+#tour figcaption{
+	color: #777;
+	line-height: 1.5;	/*行高*/
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+#tour .title{
+	color: #333;
+	font-weight: normal;
+}
+#tour .dep{
+	float: right;
+	font-size: 14px;
+	color: #999;
+	font-style: normal; 	/*<em>无需倾斜*/	
+	position: relative;		/*配合top right，使em文字：IT研发楼 下移一点*/
+	top: 5px;
+	right: 5px;
+}
+#tour .place{
+	color: #f60;
+	font-size: 13px;
+
+}
+#tour .place strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#tour .company{
+	width: 90px;
+	height: 25px;
+	background-color: #59b200;
+	color: #fff;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+	position: absolute;	/*以figure的position为参考*/
+	top: 4px;
+	left:4px;
+
+}

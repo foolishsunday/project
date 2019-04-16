@@ -1,0 +1,1 @@
+open('http://www.sina.com','width=100,height=100,top=100,left=100');

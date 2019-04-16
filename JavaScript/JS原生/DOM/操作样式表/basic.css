@@ -1,0 +1,14 @@
+@charset = "utf-8";
+.abc{
+	border:1px solid red;
+	font-size: 45px;
+}
+.cde{
+	border:3px solid red;
+}
+.aaa{
+	background-color: blue;
+}
+.aa{
+		font-size: 20px;
+}
