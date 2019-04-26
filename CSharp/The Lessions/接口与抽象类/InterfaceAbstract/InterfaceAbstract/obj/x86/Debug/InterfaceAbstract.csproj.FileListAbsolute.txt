@@ -12,3 +12,11 @@ F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\Interf
 F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\Interface\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.Form1.resources
 F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\Interface\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.Properties.Resources.resources
 F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\Interface\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.csproj.GenerateResource.Cache
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.exe
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\bin\Debug\InterfaceAbstract.exe
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\bin\Debug\InterfaceAbstract.pdb
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.Form1.resources
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.Properties.Resources.resources
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.csproj.GenerateResource.Cache
+F:\Work\Project\Repository\project\CSharp\The Lessions\接口与抽象类\InterfaceAbstract\InterfaceAbstract\obj\x86\Debug\InterfaceAbstract.csprojResolveAssemblyReference.cache
