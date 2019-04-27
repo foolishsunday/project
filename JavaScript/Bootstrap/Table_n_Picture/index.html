@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>bootstrap</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js">
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="margin: 50px">
+	<h3>内联表单</h3>
+	<p>form-control产生input样式</p>
+	<p>form-inline将各元素设置为一行</p>
+	<p>from-group使上下边距合适</p>
+	<form class="form-inline">
+		<div class="from-group">
+
+			<label>电子邮件</label>
+			<input type="email" name="" class="form-control" placeholder="请输入您的邮件">
+		</div>
+		<div class="from-group">
+			<label>密码</label>
+			<input type="password" name="" class="form-control" placeholder="请输入您的邮件">
+		</div>
+		<div class="input-group">
+			<div class="input-group-addon">表单合组</div>
+			<input type="text" class="form-control" placeholder="表单合组会把div和input合并">
+		</div>
+	</form>
+	<h3>水平排列、col-sm栅格系统</h3>
+	<form class="form-horizontal">
+		<div class="from-group">
+			<label class="col-sm-2 control-label">电子邮件</label>
+			<div class="col-sm-10">
+				<input type="email" name="" class="form-control" placeholder="horizontal">
+			</div>
+		</div>
+		<div class="from-group">
+			<label class="col-sm-2 control-label">密码</label>
+			<div class="col-sm-10">
+				<input type="password" name="" class="form-control" placeholder="horizontal">
+			</div>
+			
+		</div>
+
+		<h3>表单合组</h3>
+		<div class="input-group">
+			<div class="input-group-addon" >第一批</div>
+			<input type="text" class="form-control" placeholder="表单合组会把div和input合并">
+		</div>
+
+		<h3>复选框和单选框</h3>
+		<div class="check-box">
+			<label>
+				<input type="checkbox" >语文
+			</label>
+		</div>
+		<div class="check-box">
+			<label>
+				<input type="checkbox" >数学
+			</label>
+		</div>
+			
+			<label class="checkbox-inline">
+				<input type="checkbox" >英语
+			</label>
+			<label class="checkbox-inline disabled">
+				<input type="checkbox" disabled>禁用
+			</label>
+			<label class="radio-inline">
+				<input type="radio">Yes
+			</label>
+			<label>radio是单选框</label>
+
+			<h3>下拉框</h3>
+			<select class="form-control">
+				<option value="">1</option>
+				<option value="">2</option>
+				<option value="">3</option>
+				<option value="">4</opti on>
+			</select>
+
+			<h3>校验状态</h3>
+			<div class="form-control has-success">
+				<label class="control-label">has-success</label>
+				<input type="text" placeholder="label颜色变绿">
+			</div>
+
+			
+			<div class="form-control has-error">
+				<label class="control-label">has-error</label>
+				<input type="text" placeholder="label颜色变红">
+			</div>
+			<div class="form-control has-warning">
+				<label class="control-label">has-warning</label>
+				<input type="text" placeholder="label颜色变褐"> 
+			</div>
+	</form>
+
+	<form>
+	<h3>添加额外的图标，文本框内侧右置图标</h3>
+		<div class="from-group has-feedback">
+			<label class="control-label">1</label>
+			<div>
+				<input type="email" name="" class="form-control" placeholder="glyphicon-ok">
+			</div>
+			<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+		</div>
+		<div class="from-group has-feedback">
+			<label class="control-label">2</label>
+			<div >
+				<input type="email" name="" class="form-control" placeholder="glyphicon-remove">
+			</div>
+			<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+		</div>
+		<div class="from-group has-feedback">
+			<label class="control-label">3</label>
+			<div >
+				<input type="email" name="" class="form-control" placeholder="glyphicon-warning-sign">
+			</div>
+			<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+		</div>
+			<div class="from-group has-feedback">
+			<label class="control-label">3</label>
+			<div >
+				<input type="email" name="" class="form-control input-lg" placeholder="input-lg">
+			</div>
+			<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+		</div>
+	</form>
+</body>
+</html>

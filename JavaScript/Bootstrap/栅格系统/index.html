@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>bootstrap</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<style type="text/css">
+		.a{
+			height: 50px;
+			border:1px solid blue;
+			background-color: gray;
+		}
+		.b{
+			height: 50px;
+			border:1px solid blue;
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="container a">
+		<p>也可以用container-fluid a，两边会占满</p>
+		<p>栅格系统中，浏览器会随着屏幕的大小自动分配最多12列，通过一系列的行与列的组合来创建页面布局</p>
+		<div class="row">
+			
+		</div>
+		<div class="row">
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+			<div class="col-md-1 a">12列</div>
+		</div>
+			<div class="row">
+			<div class="col-md-9 a">9列</div>
+			<div class="col-md-3 a">3列</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 b">浏览器小于3列，则第4列换行</div>
+		</div>
+		</div>
+			<div class="row">
+			<div class="col-md-8 a">9列,各自偏移</div>
+			<div class="col-md-3 col-md-offset-1 a">3列</div>
+		</div>
+		</div>
+			<div class="row">
+				<div class="col-md-9 a" style="padding:0">
+					<div class="col-md-4 a">嵌套，padding=0</div>
+					<div class="col-md-4 a">嵌套，padding=0</div>
+					<div class="col-md-4 a">嵌套，padding=0</div>
+					<div class="col-md-4 a">嵌套，padding=0</div>
+				</div>
+			<div class="col-md-3 a">3列</div>
+		</div>
+
+		</div>
+			<div class="row">
+			<div class="col-md-9 col-md-push-3 a">(1)9与3调换位置了</div>
+			<div class="col-md-3 col-md-pull-9 a">(2)9与3调换位置了</div>
+		</div>
+	</div>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
