@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>工具提示插件</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../bootstrap-src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<style type="text/css">
+	</style>
+</head>
+<body style="margin:50px">
+	<div id="selection">
+		<a href="" data-toggle="tooltip" title="超文本" data-placement="auto bottom">data-animation:淡入淡出； 
+		data-html:是否解析title为html;
+		data-original-title:提示语的内容，优先级比title低；
+		data-trigger:怎么触发->click,hover focus,manual;
+		data-delay{show:500,hide:100}:用js；
+		data-template：更改提示的模板，有默认值
+		</a> 
+		<a href="" data-toggle="tooltip" title="超文本" data-placement="auto bottom" rel="tooltip">html 
+		</a> 
+	</div>
+	<div class="button-group" id="btn">
+		<button class="btn btn-default" data-toggle="tooltip" title="这是按键提示">左</button>
+		<button class="btn btn-default" data-toggle="tooltip" title="这是按键提示">中</button>
+		<button class="btn btn-default" data-toggle="tooltip" title="这是按键提示">右</button>
+	</div>
+
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/JQuery.js"></script>
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		//$('a').tooltip();
+		// $('a').tooltip({
+		// 	delay:{
+		// 		show:100,
+		// 		hide:500
+		// 	}
+		// });
+
+		//要用父类执行
+		$('#selection').tooltip({
+			selector:'a[rel=tooltip]'
+		});
+		$('button').tooltip({
+			delay:{
+				show:100,
+				hide:500
+			},
+			container:'body'
+		});
+	</script>
+</body>
+</html>

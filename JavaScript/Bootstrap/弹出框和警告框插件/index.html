@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>弹出框和警告框插件</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../bootstrap-src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<style type="text/css">
+		#view{
+			width:300px;
+			height: 100px;
+			border: 1px solid blue; 
+		}
+	</style>
+</head>
+<body style="margin:50px">
+
+	<div id="view">
+		<button class="btn btn-default" 
+			data-toggle="popover" 
+			title="标题" 
+			data-content="内容">弹出框
+		</button>
+		<!-- data-placement = "top" -->
+	</div>
+
+	<h3>警告框</h3>
+	<div id="alert" class="alert alert-warning fade in">
+		请重新注册
+		<button class="close" >
+			<span>&times;</span>
+		</button> 
+	</div>
+
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/JQuery.js"></script>
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		// $('button').popover({
+		// 	viewport : {
+		// 		selector : '#view',
+		// 		padding : 2
+		// 	}
+		// });
+
+		//警告框button如果不用data-dismiss="alert"而用jq,需加id=alert
+		$('.close').on('click',function(){
+			$('#alert').alert('close');
+		});
+		$('#alert').on('close.bs.alert',function(){
+			alert('已关闭');
+		})
+	</script>
+</body>
+</html>

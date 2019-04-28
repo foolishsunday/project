@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>标签页</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../bootstrap-src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<style type="text/css">
+	</style>
+</head>
+<body style="margin:50px">
+	<!-- <ul class="nav nav-pills"> -->
+	<ul class="nav nav-tabs" id="nav">
+		<li class="active"><a href="#html5" data-toggle="tab">HTML5</a></li>
+		<li><a href="#bootstrap" data-toggle="tab">Bootstrap</a></li>
+		<li><a href="#jquery" data-toggle="tab">JQuery</a></li>
+		<li><a href="#extjs" data-toggle="tab">ExtJs</a></li>
+	</ul>
+	<div class="tab-content" style="padding: 10px;">
+		<div class="tab-pane active fade in" id="html5">这是html5内容</div>
+		<div class="tab-pane fade" id="bootstrap">这是Bootstrap内容</div>
+		<div class="tab-pane fade" id="jquery">这是JQuery内容</div>
+		<div class="tab-pane fade" id="extjs">这是ExtJs内容</div>
+	</div>
+
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/JQuery.js"></script>
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		// $('#nav a').on('click',function(e){
+		// 	//阻止默认行为
+		// 	e.preventDefault();
+		// 	$(this).tab('show');
+		// })
+		// $('#nav a').on('shown.bs.tab',function(){
+		// 	alert('调用后触发');
+		// });
+	</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>进度条媒体对象和well组件</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<style type="text/css">
+	</style>
+</head>
+<body style="margin:50px">
+	
+	<div class="well">
+		well实现了简单的嵌入效果
+	</div>
+
+	<div class="progress">
+		<div class="progress-bar" style="width: 30%;min-width: 15px;">60%</div>
+	</div>
+
+	<div class="progress">
+		<div class="progress-bar-success" style="width: 81%;min-width: 15px;">81%</div>
+	</div>
+
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped" style="width: 30%;min-width: 15px;">60%</div>
+	</div>
+
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped active" style="width: 30%;min-width: 15px;">60%</div>
+	</div>
+
+	<div class="progress">
+		<div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 20%;min-width: 15px;">20%</div>
+		<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 20%;min-width: 15px;">60%</div>
+		<div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 20%;min-width: 15px;">80%</div>
+	</div>
+
+	<div class="media">
+		<div class="media-left media-middle">
+			<img src="img/pic.png" alt="" class="media-object">
+		</div>
+		<div class="media-body">
+			<h3 class="media-heading">内容标题</h3>
+			<p>这是介绍图片的详细文字，一般用于论坛、楼层等等；这是介绍图片的详细文字，一般用于论坛、楼层,百度百科，是独占的。用于回帖</p>
+		</div>
+	</div>
+	
+	<ul class="media-list">
+		<li class="media">
+			<div class="media-left media-middle">
+				<img src="img/pic.png" alt="" class="media-object">
+			</div>
+			<div class="media-body">
+				<h3 class="media-heading">内容标题</h3>
+				<p>这是介绍图片的详细文字，一般用于论坛、楼层等等；这是介绍图片的详细文字，一般用于论坛、楼层,百度百科，是独占的。用于回帖,需加ul，并把li改为div</p>
+					<div class="media">
+						<div class="media-left media-middle">
+							<img src="img/pic.png" alt="" class="media-object">
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">内容标题</h3>
+							<p>这是介绍图片的详细文字，一般用于论坛、楼层等等；这是介绍图片的详细文字，一般用于论坛、楼层,百度百科，是独占的。用于回帖</p>
+							<div class="media">
+								<div class="media-left media-middle">
+									<img src="img/pic.png" alt="" class="media-object">
+								</div>
+								<div class="media-body">
+									<h3 class="media-heading">内容标题</h3>
+									<p>这是介绍图片的详细文字，一般用于论坛、楼层等等；这是介绍图片的详细文字，一般用于论坛、楼层,百度百科，是独占的。用于回帖</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+			</div>
+		</li>
+	</ul>
+
+	<script src="bootstrap-3.3.7-dist/js/JQuery.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

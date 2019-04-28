@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>按钮和折叠插件</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../bootstrap-src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<style type="text/css">
+		#view{
+			width:300px;
+			height: 100px;
+			border: 1px solid blue; 
+		}
+	</style>
+</head>
+<body style="margin:50px">
+	<button class="btn btn-default" data-toggle="button" autocomplete="off">
+		是否选中
+	</button>
+	<p>在浏览器多次加载后，按钮可能保持表单的禁用或选择状态，解决方案：autocomplete="off"</p>
+	<!--  -->
+	<h3>单选框</h3>
+	<div class="btn-group" data-toggle="buttons">
+		<label for="" class="btn btn-primary active">
+			<input type="radio" checked>男</label>
+		<label for="" class="btn btn-primary">
+			<input type="radio" checked>女</label>
+	</div>
+	<!--  -->
+	<h3>复选框</h3>
+	<div class="btn-group" data-toggle="buttons">
+		<label for="" class="btn btn-primary">
+			<input type="checkbox">1
+		</label>
+		<label for="" class="btn btn-primary">
+			<input type="checkbox">2
+		</label>
+		<label for="" class="btn btn-primary">
+			<input type="checkbox">3
+		</label>
+		<label for="" class="btn btn-primary">
+			<input type="checkbox">4
+		</label>
+	</div>
+	<!--  -->
+	<h3>加载状态</h3>
+	<h5>1s后恢复</h5>
+	<button class="btn btn-primary" id="loading" data-loading-text="Loading..." autocomplete="off">开始上传</button>
+	<!--  -->
+
+	<h3>折叠</h3>
+	<button class="btn btn-primary" data-toggle="collapse" data-target="#detail">
+		>>
+	</button>
+	<div class="collapse" id="detail">
+		<div class="well">
+			Boostrap
+		</div>
+	</div>
+	<!--  -->
+	<h3>手风琴折叠</h3>
+	<div class="panel-group" id="accordion">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a href="#collIdOne" data-toggle="collapse" data-parent="#accordion">
+						链接1
+					</a>
+				</h4>
+			</div>
+			<div id="collIdOne" class="panel-collapse collapse">
+				<div class="panel-body">
+					内容1
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a href="#collIdTwo" data-toggle="collapse" data-parent="#accordion">
+						链接2
+					</a>
+				</h4>
+			</div>
+			<div id="collIdTwo" class="panel-collapse collapse">
+				<div class="panel-body">
+					内容2
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a href="#collIdThree" data-toggle="collapse" data-parent="#accordion">
+						链接3
+					</a>
+				</h4>
+			</div>
+			<div id="collIdThree" class="panel-collapse collapse">
+				<div class="panel-body">
+					内容3
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--  -->
+
+
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/JQuery.js"></script>
+	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$('#loading').on('click',function(){
+			var btn = $(this).button('loading');
+			setTimeout(function(){
+				btn.button('reset');
+			},1000);
+		});
+		// js实现手风琴,不建议
+		// $('#collIdOne,#collIdTwo,#collIdThree').collapse({
+		// 	parent:'#accordion',
+		// 	toggle:false
+		// });
+	</script>
+</body>
+</html>
