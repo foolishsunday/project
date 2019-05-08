@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>CIM Manager</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <style type="text/css">
+        #view{
+            width:300px;
+            height: 100px;
+            border: 1px solid blue; 
+        }
+    </style>
+</head>
+<body style="margin:50px">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand" style="padding: 0;">
+                    <img src="img/logo-3d.png" alt="logo">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#id-navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </a>
+            </div>
+            <div id="id-navbar-collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" style="margin-top:0;">  
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> 登录 / 注册
+                        </a>                        
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-xs-12"><h3>IT-CIM部资产管理系统</h3></div>
+    </div>
+    <div class="row">
+            <div class="col-xs-2" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked" data-spy="affix">
+                    <div class="panel-group" id="accordion"> 
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a href="#collIdOne" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="glyphicon glyphicon-search" id="nav_query"></span> 查询
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collIdOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a href="#home" data-toggle="tab">
+                                        物料查询
+                                    </a>
+                                </div>
+                                <div class="panel-body">
+                                    <a href="#ios" data-toggle="tab">
+                                        库存查询
+                                    </a>
+                                </div>
+                            </div>
+            
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a href="#collIdTwo" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="glyphicon glyphicon-log-out" id="nav_query"></span> 出库
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collIdTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    领用
+                                </div>
+                                <div class="panel-body">
+                                    借用
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a href="#collIdThree" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="glyphicon glyphicon-open" id="nav_query"></span> 入库
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collIdThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    单个入库
+                                </div>
+                                <div class="panel-body">
+                                    批量入库
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a href="#collIdFour" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="glyphicon glyphicon-cog" id="nav_query"></span> 权限管理
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collIdFour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    修改个人信息
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </ul>
+                
+                
+                <!--  -->
+            </div>
+            <div class="col-xs-10">
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="home">
+                    <p>菜鸟教程是一个提供最新的web技术站点，本站免费提供了建站相关的技术文档，帮助广大web技术爱好者快速入门并建立自己的网站。菜鸟先飞早入行——学的不仅是技术，更是梦想。</p>
+                    </div>
+                    <div class="tab-pane fade" id="ios">
+                        <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple 
+                            TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    <!--  -->
+    
+
+    <!-- 登录：模态框声明 -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <!-- 窗口声明 -->
+        <div class="modal-dialog">
+            <!-- 内容声明 -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">登录</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-2">账号：</div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="请输入账号">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">密码：</div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="请输入密码">
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="modal-footer">
+                    <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#registerModal" class="btn btn-default">注册
+                    </a>
+                    <buttton class="btn btn-primary">登录</buttton>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 注册：模态框 -->
+    <div class="modal fade" id="registerModal" tabindex="-1">
+        <div class="modal-dialog">  
+            <div class="modal-content"> 
+                <div class="modal-header">  
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">注册</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">创建账号:</div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="请输入账号">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">密码:</div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="请输入密码">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">确认密码:</div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="再次输入密码">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">邮箱地址:</div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="请输入邮箱">
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+                <div class="modal-footer">
+                    <buttton class="btn btn-primary">提交</buttton>
+                </div>
+
+            </div>
+        </div>  
+    </div>
+    <footer id="footer" class="text-muted navbar-fixed-bottom">
+        <div class="container">
+            <p>电 话：【深圳】0755-86908888 【武汉】027-65500888 、027-65500999 </p>
+            <p>深圳地址： 深圳市光明新区塘明大道9-2号 邮 编：518132 </p>
+            <p>武汉地址：武汉市东湖新技术开发区光谷智能制造产业园左岭大道8号 邮 编：430078</p>
+            <p>COPYRIGHT © 2013 CSOT ALL RIGHT RESERVED 粤ICP备12001030号-1</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap-3.3.7-dist/js/JQuery.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $('#loading').on('click',function(){
+            var btn = $(this).button('loading');
+            setTimeout(function(){
+                btn.button('reset');
+            },1000);
+        });
+
+    </script>
+</body>
+</html>

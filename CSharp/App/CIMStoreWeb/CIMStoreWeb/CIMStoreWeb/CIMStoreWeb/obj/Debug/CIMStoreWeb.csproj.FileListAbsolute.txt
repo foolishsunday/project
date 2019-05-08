@@ -1,0 +1,4 @@
+F:\Work\Project\Repository\project\CSharp\App\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\bin\CIMStoreWeb.dll
+F:\Work\Project\Repository\project\CSharp\App\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\bin\CIMStoreWeb.pdb
+F:\Work\Project\Repository\project\CSharp\App\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\obj\Debug\CIMStoreWeb.dll
+F:\Work\Project\Repository\project\CSharp\App\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\CIMStoreWeb\obj\Debug\CIMStoreWeb.pdb

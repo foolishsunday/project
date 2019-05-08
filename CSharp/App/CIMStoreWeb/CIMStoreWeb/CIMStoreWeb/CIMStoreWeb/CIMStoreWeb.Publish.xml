@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="F:\Work\Project\Repository\project\CSharp\App\CIMStoreWeb_Server" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="04/29/2019 17:19:53" />
+    <file relUrl="Site.Master" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="bin/CIMStoreWeb.dll" publishTime="04/29/2019 17:15:05" />
+    <file relUrl="Account/Register.aspx" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="WebService.asmx" publishTime="04/29/2019 17:13:22" />
+    <file relUrl="Account/Web.config" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Account/Login.aspx" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Styles/Site.css" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Global.asax" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="About.aspx" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Default.aspx" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="04/29/2019 17:11:44" />
+    <file relUrl="bin/CIMStoreWeb.pdb" publishTime="04/29/2019 17:15:04" />
+  </publishProfile>
+</publishData>

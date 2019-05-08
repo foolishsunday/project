@@ -1,0 +1,21 @@
+begin tran tran_R_MODULE;
+declare @tran_error int;
+set @tran_error = 0;
+begin try 
+update R_MODULE SET RobotPosition='1' WHERE LineID = 'FAFIP100' AND Name = 'BM1';
+end try 
+
+begin catch
+set @tran_error = @tran_error+1;
+end catch 
+
+if(@tran_error>0)
+	begin 
+		rollback tran tran_R_MODULE;
+		print @tran_error;
+	end
+else 
+	begin
+		commit tran tran_R_MODDULE;
+		print @tran_error;
+	end

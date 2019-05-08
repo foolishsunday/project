@@ -1,0 +1,14 @@
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\bin\Debug\netcoreapp2.1\NetCodeWeb.deps.json
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\bin\Debug\netcoreapp2.1\NetCodeWeb.runtimeconfig.json
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\bin\Debug\netcoreapp2.1\NetCodeWeb.runtimeconfig.dev.json
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\bin\Debug\netcoreapp2.1\NetCodeWeb.dll
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\bin\Debug\netcoreapp2.1\NetCodeWeb.pdb
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.csprojAssemblyReference.cache
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.csproj.CoreCompileInputs.cache
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.RazorAssemblyInfo.cache
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.RazorAssemblyInfo.cs
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.AssemblyInfoInputs.cache
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.AssemblyInfo.cs
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.RazorTargetAssemblyInfo.cache
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.dll
+F:\Work\Project\Repository\project\CSharp\App\NetCodeWeb\NetCodeWeb\NetCodeWeb\obj\Debug\netcoreapp2.1\NetCodeWeb.pdb

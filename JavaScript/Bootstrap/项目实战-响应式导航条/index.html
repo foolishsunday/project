@@ -1,105 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-	<title>附加导航插件</title>
+	<title>项目实战-响应式导航条</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="../bootstrap-src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<style type="text/css">
-		#view{
-			width:300px;
-			height: 100px;
-			border: 1px solid blue; 
-		}
-		.nav-pills{
-			width: 150px;
-		}
-		.nav-pills.affix{
-			top:30px;
-		}
+
 	</style>
 </head>
-<body data-spy="scroll" data-target="#myScrollspy">
-	<div class="jumbotron" style="height: 150px">
-		<h2>Bootstrap</h2>
-	</div>
-	<div class="row">
-		<div class="col-xs-3" id="myScrollspy">
-			<!-- data-spy:左边固定 -->
-			<!-- data-offset-top:顶上去 -->
-			<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="150">
-				<li><a href="#section-1">第1部分</a></li>
-				<li><a href="#section-2">第2部分</a></li>
-				<li><a href="#section-3">第3部分</a></li>
-				<li><a href="#section-4">第4部分</a></li>
-				<li><a href="#section-5">第5部分</a></li>
-			</ul>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand" style="padding: 0;">
+					<img src="img/logo-3d.png" alt="logo">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#id-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</a>
+			</div>
+			<div id="id-navbar-collapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right" style="margin-top:0;">
+					<li>
+						<a href="#" class="active"><span class="glyphicon glyphicon-home"></span> 首页</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-th-large"></span> 资讯</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-upload"></span> 产品</a>
+					</li>
+					<li>
+						<a href="#"><span class=" glyphicon glyphicon-wrench"></span> 简介</a>
+					</li>
+				</ul>
+			</div>
+			
 		</div>
-		<div class="col-xs-9">
-			<h2 id="section-1">第1部分</h2>
-			<p style="line-height: 2;">如果你曾经有过彻夜痛饮后抱着一块吃剩的凉披萨狂啃，那么你不是一个人。如果你饱餐一顿以后想要再来上两杯的话，那你也不是一个人。但结果表明，高脂肪食物和饮酒的冲动之间的联系不仅仅是纯粹的巧合或者抑制作用的下降。这些冲动和渴望可能是因为人的大脑在作祟。
+	</nav>
 
-根据宾州州立大学医学院的研究，重度饮酒和高脂肪垃圾食品的摄入似乎共用了同一条脑回路。虽然先前的研究表明，喝酒会影响控制暴饮暴食相同的大脑区域，但这个在老鼠身上做的试验尤其把重点放在了各种不同的因素上，包括酒和水摄入的对比，还有高脂肪饮食和正常饮食的对比。该研究结果也于4月份在奥兰多召开的美国生理学会(APS)2019年实验生物学年度大会进行了展示。
-
-“肥胖和酗酒是美国最常见的两种慢性病，这可能和美食的胡吃海塞相关，比如说高脂肪饮食的摄入，而且过量酗酒可能也利用了相同的神经元回路，”研究人员在新闻声明中表示。
-
-在为期8周的研究中，科学家观察了3组成年早期的雄性老鼠。“高脂肪饮食”组的老鼠能够随心所欲地吃油腻的食物，但只能有限制(一周4天，一天4小时)的喝混合了酒精的水。“正常饮食”组的老鼠吃的是正常的食物，酒-水混合物的摄入量和前一组一样。而“暴饮暴食”组的老鼠只能摄入有限的高脂肪食物和酒精，但是当它们吃不到高脂肪食物时，是可以吃正常的食物的。</p>
-			<h2 id="section-2">第2部分</h2>
-			<p style="line-height: 2;">关于酒-水混合物有趣的是：研究者在八周的时间中，不断增加着混合物中酒精的比例。因此虽然研究初期的混合物中酒精比例只有10%，但是到结束时比例达到了20%。而且即便所有动物在整个试验中都可以不受限制的喝水，但是在过程中还是发生了一些有意思的事。
-
-首先我们来看“暴饮暴食”组。这些老鼠不仅出现了和放纵饮食相关的相同模式的体重增加和减少，而且它们喝的酒要比水多，这很明显的表明它们已经偏爱酒精了。另外两组老鼠明显喝的酒少。据研究者所述，试验结果表明，高脂肪食物的受限促成了暴食的行为(要注意的是，“暴饮暴食”组只能在有限的时间内吃高脂肪食物，而“高脂肪食物”组则可以想什么时候吃都行)。随后，暴食行为似乎又会通过激活大脑中相同的区域来触发暴饮行为。
-
-“鉴于美国近些年来酗酒和总体肥胖趋势的上升，我们认为在不久的未来，这个新的老鼠模型将会成为关键，”作者Caitlin Coker写道。
-
-虽然这只是一个在老鼠身上做的试验，还需要进行更多的研究来更近一步了解其中的复杂关联，但是值得注意的是，饮食、体重的增加和减少是复杂的、环环相扣的问题。</p>
-			<h2 id="section-3">第3部分</h2>
-			<p style="line-height: 2;">多年来，科学家们一直在努力，企图创造出一种可以将精神活动转换成语音的系统，而现在，加州大学旧金山分校的一组研究人员最终攻克了这一系统。 虽然这项技术仍需要一些微调，但总有一天它可以用于人工恢复那些因脑损伤、中风或帕金森氏症等神经退行性疾病而失去说话能力的人的声音。
-
-对于语言障碍者来说，目前最好的系统，也只能让他们通过小型肌肉运动来控制交互界面，以此逐字逐句地表达自己的想法——史蒂芬 · 霍金就曾使用过这种方法。 但研究人员从未停止尝试开发新的设备，这种设备，既可以检测人们思想、转换成语言，也能大声读出来“思想”。
-
-但事实证明，这些努力都是徒劳的。但本文中的研究团队做出了一个十分明智的决定：他们抛弃了传统思路，转而专注于解码大脑活动了，这些活动能协调说话过程中的口腔与声音盒的运动。
-
-之前的研究揭示出大脑的语言中枢并不直接编码声音或词语，而是编排发出这些声音的发声器官，而这项研究正是受到了这一结论的启发。为了监测癫痫发作时大脑周围的神经活动，研究小组在5名癫痫患者的大脑中植入了电极，并观察了他们在朗读固定短语时语言中枢的变化情况。
-
-这项研究的作者在《自然》杂志上描述了他们的研究工作，解释了他们如何解码那些控制舌头、嘴唇、下巴、发音盒的大脑活动。 通过将这些动作与说话过程中发出的声音联系起来，研究人员能够为每个人的声道创建一个计算机模拟过程。当与语言相关的大脑活动模式导入模拟器时，模拟器能合成与那个人的实际声音相同的声音。尽管某些声音听不清楚，该系统已经能够播报出流畅的语音了。研究报告的作者 Josh Chartier 在一份声明中说:"我们还有很长的路要走，才能完美地模仿口语…… 我们擅长合成那些慢发音的单词，如'sh'和'z'，也能同时保持语音的节奏和语调，说话者的性别和身份也不会改变，但是一些如'b'和'p'的音，发出来就会变得有点模糊。"
-
-"尽管如此，与现有的实时通信相比，我们实验目前达到的准确性，将会成为一次惊人的进步，"他补充说。毕竟现有的解决方案，最多只允许每分钟识别10个单词，所以任何能合成整个句子的设备，都将大大改善无数语言障碍患者的生活。</p>
-			<h2 id="section-4">第4部分</h2>
-			<p style="line-height: 2;">近日，一名来自肯尼亚农村的45岁男子成为了当地社区的英雄，他仅使用基本农具，便在六天内独自挖掘出了一条横穿一片密丛区域的一英里长道路。
-
-在肯尼亚首都内罗毕以北80公里处，有一个小村庄叫做Kaganda。这里的居民长期以来一直都在呼吁当地政府官员开凿一条捷径，以缩短他们每天前往附近购物中心的路程。虽然当局已计划在密丛区域建造一条道路，但当地领导人仍在拖延该项目。
-
-Kaganda村民以前会经由一条较短的步道出门购物，但由于该路通往私人地产，因此被围了起来。当地村民此后别无选择，只能每天绕远步行4公里。眼看修路一拖再拖，一位当地英雄决定自己动手，免费为村民们挖掘一条期待已久的道路。
-
-[点击查看图片]
-
-Nicholas Muchami以白天打零工和夜间当警卫为生，他自告奋勇，决定用基本农具单枪匹马开辟一条2公里长的道路。这名汉子每天从早上7点到下午5点不知疲倦地连续工作了六天，设法清理了1.5公里的密丛区域，开辟出了一条宽阔到足以让汽车通行的土路。尽管他还得再挖0.5公里的距离才能完成这项任务，但他目前的成就已使其成为国际新闻的头条。
-尽管为了生计，Muchami不得不把开路的工作暂停一段时间，跑回去重新做起了临时工，但他还打算继续清除剩下的密丛，然后再压平整条道路。值得一提的是，尽管这条新路目前尚未完工，但已经被Kaganda中学和Kaganda小学的学生及其他当地人使用。
-
-有趣的是，尽管人们眼睁睁地看着Nicholas一个人在那挖了六天路，但没有一个村民愿意伸出援助之手，因为他们不想免费去做这项工作。事实上，这名汉子本人透漏道，许多路过的人都问过他干这事是否有酬劳。
-
-Nicholas的故事于上周在社交媒体上传播开后，许多人都称赞他为英雄与真正的爱国者，同时也谴责地方当局未能履行职责。许多人到要求当地政府至少完成剩下的工作，并修缮他所挖的土路。
-</p>
-			<h2 id="section-5">第5部分</h2>
-			<p style="line-height: 2;">
-				微软已成为第三家市值突破1万亿美元的美国企业。今天(美国时间25日)，软件巨头在公布了表现亮眼的第三季度财报之后，股价暴涨；在竞争对手谷歌之前达成了市值超越1万亿美元的里程碑成就。如今，微软加入了苹果和亚马逊的行列。
-
-微软股价今天开盘报每股130美元，比昨天的125美元收盘价上涨约4％。虽然今天的股票价格存在大幅波动的可能性，但该公司今早在纳斯达克交易时段中已升至1万亿美元的市场价值。微软目前的市值也意味着，自从去年11月被苹果超越后，它再次反超苹果公司，成为全球最有价值的企业。
-
-由于其云业务的大幅增长，微软的股票持续走高。这家软件制造商近年来一直在开发云产品，该公司的目标是赶超亚马逊AWS的主导地位。 Azure是目前仅次于亚马逊AWS的云服务，领先于谷歌自己的产品。
-
-微软最新的财报还显示，该公司分拆业务的三个主要部门都表现良好，本季度大致贡献了相同的收入(每个约30％)。
-Office，LinkedIn和Dynamics=102亿美元
-Azure云，服务器产品和企业服务=97亿美元
-Windows，Xbox和Surface = 107亿美元
-
-虽然1万亿美元的市值引来了投资者的密切关注，但微软却并不关心这一点。 “高级领导团队中没有人关心这一指标，”去年GeekWire参加的一项活动的微软首席营销官Chris Capossela说，“股票市场起伏不定，没有哪家能够一直占据最高点。”
-			</p>
-		</div>
-	</div>
-
-	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/JQuery.js"></script>
-	<script src="../bootstrap-src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
+	<script src="bootstrap-3.3.7-dist/js/JQuery.js"></script>
+<!-- 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript">
 		
 

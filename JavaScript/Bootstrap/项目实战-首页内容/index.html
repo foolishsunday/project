@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>项目实战-首页内容</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+	
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand" style="padding: 0;">
+					<img src="img/logo-3d.png" alt="logo">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#id-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</a>
+			</div>
+			<div id="id-navbar-collapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right" style="margin-top:0;">
+					<li>
+						<a href="#" class="active"><span class="glyphicon glyphicon-home"></span> 首页</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-search" id="nav_query"></span> 查询</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-th-large"></span> 出库</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-upload"></span> 入库</a>
+					</li>
+					<li>
+<!-- 						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">
+  							<span class="glyphicon glyphicon-user"></span> 登录 / 注册
+
+						</button> -->
+						<a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> 登录 / 注册
+						</a>
+						
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
+	<div class="jumbotron">
+	</div>
+	
+	<div id="section_query">
+			
+		<div class="row row-inverse">
+			<div class="col-xs-2" id="myScrollspy">
+				<!-- data-spy:左边固定 -->
+				<!-- data-offset-top:顶上去 -->
+				<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="150">
+					<li><a href="#section-1">第1部分</a></li>
+					<li><a href="#section-2">第2部分</a></li>
+					<li><a href="#section-3">第3部分</a></li>
+					<li><a href="#section-4">第4部分</a></li>
+					<li><a href="#section-5">第5部分</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-10">
+				<h2 id="section-1">第1部分</h2>
+				<p style="line-height: 2;">如果你曾经有过彻夜痛饮后抱着一块吃剩的凉披萨狂啃，那么你不是一个人。如果你饱餐一顿以后想要再来上两杯的话，那你也不是一个人。但结果表明，高脂肪食物和饮酒的冲动之间的联系不仅仅是纯粹的巧合或者抑制作用的下降。这些冲动和渴望可能是因为人的大脑在作祟。
+				</p>
+				<h2 id="section-2">第2部分</h2>
+				<p style="line-height: 2;">关于酒-水混合物有趣的是：研究者在八周的时间中，不断增加着混合物中酒精的比例。因此虽然研究初期的混合物中酒精比例只有10%，但是到结束时比例达到了20%。而且即便所有动物在整个试验中都可以不受限制的喝水，但是在过程中还是发生了一些有意思的事。
+				</p>
+				<h2 id="section-3">第3部分</h2>
+				<p style="line-height: 2;">多年来，科学家们一直在努力，企图创造出一种可以将精神活动转换成语音的系统，而现在，加州大学旧金山分校的一组研究人员最终攻克了这一系统。 虽然这项技术仍需要一些微调，但总有一天它可以用于人工恢复那些因脑损伤、中风或帕金森氏症等神经退行性疾病而失去说话能力的人的声音。
+				</p>
+				<h2 id="section-4">第4部分</h2>
+				<p style="line-height: 2;">近日，一名来自肯尼亚农村的45岁男子成为了当地社区的英雄，他仅使用基本农具，便在六天内独自挖掘出了一条横穿一片密丛区域的一英里长道路。
+				</p>
+				<h2 id="section-5">第5部分</h2>
+				<p style="line-height: 2;">
+					微软已成为第三家市值突破1万亿美元的美国企业。今天(美国时间25日)，软件巨头在公布了表现亮眼的第三季度财报之后，股价暴涨；在竞争对手谷歌之前达成了市值超越1万亿美元的里程碑成就。如今，微软加入了苹果和亚马逊的行列。
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="registerModal" tabindex="-1">
+		<div class="modal-dialog">	
+			<div class="modal-content">	
+				<div class="modal-header">	
+					<button class="close" data-dismiss="modal"><span>&times;</span></button>
+					<h4 class="modal-title">注册</h4>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-1"></div>
+							<div class="col-md-2">创建账号:</div>
+							<div class="col-md-9">
+								<input type="text" class="form-control" placeholder="请输入账号">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1"></div>
+							<div class="col-md-2">密码:</div>
+							<div class="col-md-9">
+								<input type="text" class="form-control" placeholder="请输入密码">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1"></div>
+							<div class="col-md-2">确认密码:</div>
+							<div class="col-md-9">
+								<input type="text" class="form-control" placeholder="再次输入密码">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-1"></div>
+							<div class="col-md-2">邮箱地址:</div>
+							<div class="col-md-9">
+								<input type="text" class="form-control" placeholder="请输入邮箱">
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="modal-footer">
+					<buttton class="btn btn-primary">提交</buttton>
+				</div>
+
+			</div>
+		</div>	
+	</div>
+	<!-- 模态框声明 -->
+	<div class="modal fade" id="loginModal" tabindex="-1">
+		<!-- 窗口声明 -->
+		<div class="modal-dialog">
+			<!-- 内容声明 -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal"><span>&times;</span></button>
+					<h4 class="modal-title">登录</h4>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-2">账号：</div>
+							<div class="col-md-10">
+								<input type="text" class="form-control" placeholder="请输入账号">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-2">密码：</div>
+							<div class="col-md-10">
+								<input type="text" class="form-control" placeholder="请输入密码">
+							</div>
+						</div>
+					</div>
+		
+				</div>
+				<div class="modal-footer">
+					<a href="#" data-toggle="modal" data-dismiss="modal" data-target="#registerModal" class="btn btn-default">注册
+					</a>
+					<buttton class="btn btn-primary">登录</buttton>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" class="text-muted">
+		<div class="container">
+			<p>电 话：【深圳】0755-86908888 【武汉】027-65500888 、027-65500999 </p>
+			<p>深圳地址： 深圳市光明新区塘明大道9-2号 邮 编：518132 </p>
+			<p>武汉地址：武汉市东湖新技术开发区光谷智能制造产业园左岭大道8号 邮 编：430078</p>
+			<p>COPYRIGHT © 2013 CSOT ALL RIGHT RESERVED 粤ICP备12001030号-1</p>
+		</div>
+	</footer>
+
+
+	<script src="bootstrap-3.3.7-dist/js/JQuery.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+	
+		$(function() {
+    		$('#loginModal').modal('show')
+		});
+
+	</script>
+</body>
+</html>
