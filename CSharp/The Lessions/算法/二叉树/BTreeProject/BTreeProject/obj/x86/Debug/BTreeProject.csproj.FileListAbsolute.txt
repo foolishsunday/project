@@ -1,7 +1,0 @@
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\bin\Debug\BTreeProject.exe
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\bin\Debug\BTreeProject.pdb
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\obj\x86\Debug\BTreeProject.Form1.resources
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\obj\x86\Debug\BTreeProject.Properties.Resources.resources
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\obj\x86\Debug\BTreeProject.csproj.GenerateResource.Cache
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\obj\x86\Debug\BTreeProject.exe
-F:\Work\Project\Repository\project\CSharp\The Lessions\算法\二叉树\BTreeProject\BTreeProject\obj\x86\Debug\BTreeProject.pdb

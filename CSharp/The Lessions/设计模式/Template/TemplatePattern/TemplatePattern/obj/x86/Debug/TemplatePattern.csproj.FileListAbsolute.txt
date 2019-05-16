@@ -1,7 +1,0 @@
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\obj\x86\Debug\TemplatePattern.Form1.resources
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\obj\x86\Debug\TemplatePattern.Properties.Resources.resources
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\obj\x86\Debug\TemplatePattern.csproj.GenerateResource.Cache
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\bin\Debug\TemplatePattern.exe
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\bin\Debug\TemplatePattern.pdb
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\obj\x86\Debug\TemplatePattern.exe
-F:\Work\Project\Repository\project\CSharp\The Lessions\设计模式\Template\TemplatePattern\TemplatePattern\obj\x86\Debug\TemplatePattern.pdb

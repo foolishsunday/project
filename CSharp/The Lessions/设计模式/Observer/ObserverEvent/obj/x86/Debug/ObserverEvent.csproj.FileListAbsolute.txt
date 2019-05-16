@@ -1,7 +1,0 @@
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\bin\Debug\ObserverEvent.exe
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\bin\Debug\ObserverEvent.pdb
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\obj\x86\Debug\ObserverEvent.Form1.resources
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\obj\x86\Debug\ObserverEvent.Properties.Resources.resources
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\obj\x86\Debug\ObserverEvent.csproj.GenerateResource.Cache
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\obj\x86\Debug\ObserverEvent.exe
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Observer\ObserverEvent\obj\x86\Debug\ObserverEvent.pdb

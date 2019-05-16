@@ -1,7 +1,0 @@
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\obj\x86\Debug\Bubble.Form1.resources
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\obj\x86\Debug\Bubble.Properties.Resources.resources
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\obj\x86\Debug\Bubble.csproj.GenerateResource.Cache
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\bin\Debug\Bubble.exe
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\bin\Debug\Bubble.pdb
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\obj\x86\Debug\Bubble.exe
-F:\Work\Project\Git\CSharp\The Lessions\冒泡算法\Bubble\Bubble\Bubble\obj\x86\Debug\Bubble.pdb

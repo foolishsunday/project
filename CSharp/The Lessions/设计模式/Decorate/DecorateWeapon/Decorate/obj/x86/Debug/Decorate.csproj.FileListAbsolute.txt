@@ -1,7 +1,0 @@
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\obj\x86\Debug\Decorate.Form1.resources
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\obj\x86\Debug\Decorate.Properties.Resources.resources
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\obj\x86\Debug\Decorate.csproj.GenerateResource.Cache
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\bin\Debug\Decorate.exe
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\bin\Debug\Decorate.pdb
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\obj\x86\Debug\Decorate.exe
-G:\Work\Project\CSharp\Code\The Lessons\Pattern\Decorate\Decorate\Decorate\obj\x86\Debug\Decorate.pdb
